@@ -1,2 +1,2 @@
 # DigitalDesignLabs
-Nhung bai thực hành trong mon TN KTS - ETE - DUT
+Những bải thực hành trên Altera trong môn TN KTS - ETE - DUT
