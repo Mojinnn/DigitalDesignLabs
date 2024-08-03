@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\Project\Lab1\CongAND\simulation\qsim
+vCongAND
+Z1 IJ_R?FWNfK]RNMU0`LW@=i0
+Z2 VXnGV8LCC_f61IlDB`UnNW0
+Z3 dC:\altera\Project\Lab1\CongAND\simulation\qsim
+Z4 w1721464055
+Z5 8CongAND.vo
+Z6 FCongAND.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@cong@a@n@d
+!i10b 1
+Z10 !s100 Ui>CGWUfS<80c_gW26`8B0
+!s85 0
+Z11 !s108 1721464056.416000
+Z12 !s107 CongAND.vo|
+Z13 !s90 -work|work|CongAND.vo|
+!s101 -O0
+vCongAND_vlg_check_tst
+!i10b 1
+!s100 X2oz0dmeXn0MR<ZmYMKZi3
+IoQMSJ^>:H?D0JChAa>W>53
+VhX8HbI]X9P^75g28NJQED3
+R3
+R4
+Z14 8CongAND.vt
+Z15 FCongAND.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1721464056.474000
+Z17 !s107 CongAND.vt|
+Z18 !s90 -work|work|CongAND.vt|
+!s101 -O0
+R8
+n@cong@a@n@d_vlg_check_tst
+vCongAND_vlg_sample_tst
+!i10b 1
+!s100 6UXl2<Q>e>`JOz`zF^I8S3
+IYDM8fnEG[F5?>5T<FQIOD3
+VS[UT`;E?6nF?fje7jd2dS2
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@cong@a@n@d_vlg_sample_tst
+vCongAND_vlg_vec_tst
+!i10b 1
+!s100 0[FFhP36=CzU4_[bRhkLH2
+IIH@2QlMmhYVgI3^^n`7Da2
+Vc@MACj1Y7>9FF3LP6]n==0
+R3
+R4
+R14
+R15
+L0 154
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@cong@a@n@d_vlg_vec_tst

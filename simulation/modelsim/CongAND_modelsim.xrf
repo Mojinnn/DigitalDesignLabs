@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/Project/Lab1/CongAND/CongAND.bdf
+source_file = 1, C:/altera/Project/Lab1/CongAND/Waveform.vwf
+source_file = 1, Waveform2.vwf
+source_file = 1, C:/altera/Project/Lab1/CongAND/db/CongAND.cbx.xml
+design_name = CongAND
+instance = comp, \A~I , A, CongAND, 1
+instance = comp, \B~I , B, CongAND, 1
+instance = comp, \O~I , O, CongAND, 1
