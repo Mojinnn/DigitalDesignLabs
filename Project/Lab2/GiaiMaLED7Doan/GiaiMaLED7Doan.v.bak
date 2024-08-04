@@ -1,0 +1,13 @@
+module GiaiMaLED7Doan ([3:0] data,[6:0] led);
+
+input [3:0] data;
+output reg [6:0] led;
+
+always @(*) begin
+led = 7'b0;
+	case(data)
+		4'h0: led = 7'b0;
+		
+	endcase
+end
+	

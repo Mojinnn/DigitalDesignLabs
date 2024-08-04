@@ -1,0 +1,7 @@
+
+State Machine - |DemLui4to1|current_state
+Name current_state.001 current_state.011 current_state.010 current_state.100 
+current_state.100 0 0 0 0 
+current_state.010 0 0 1 1 
+current_state.011 0 1 0 1 
+current_state.001 1 0 0 1 

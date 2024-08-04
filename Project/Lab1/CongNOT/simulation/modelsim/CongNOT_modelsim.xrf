@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/Project/Lab1/CongNOT/CongNOT.bdf
+source_file = 1, C:/altera/Project/Lab1/CongNOT/Waveform.vwf
+source_file = 1, C:/altera/Project/Lab1/CongNOT/db/CongNOT.cbx.xml
+design_name = CongNOT
+instance = comp, \X~I , X, CongNOT, 1
+instance = comp, \Y~I , Y, CongNOT, 1

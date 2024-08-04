@@ -1,0 +1,6 @@
+|CodeVHDL
+A => O.IN0
+B => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+

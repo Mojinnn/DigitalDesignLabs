@@ -1,0 +1,4 @@
+module HienThiDem10Led7Doan();
+
+CounterMuoi( .clk, .enb, .state );
+GiaiMaLED7Doan (data, led);

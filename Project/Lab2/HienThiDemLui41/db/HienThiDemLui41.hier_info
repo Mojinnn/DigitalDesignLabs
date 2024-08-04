@@ -1,0 +1,37 @@
+|HienThiDemLui41
+clk => clk.IN1
+clr => clr.IN1
+led[0] <= GiaiMaLED7Doan:use2.led
+led[1] <= GiaiMaLED7Doan:use2.led
+led[2] <= GiaiMaLED7Doan:use2.led
+led[3] <= GiaiMaLED7Doan:use2.led
+led[4] <= GiaiMaLED7Doan:use2.led
+led[5] <= GiaiMaLED7Doan:use2.led
+led[6] <= GiaiMaLED7Doan:use2.led
+
+
+|HienThiDemLui41|DemLui4to1:use1
+clk => current_state~2.DATAIN
+clr => current_state.OUTPUTSELECT
+clr => current_state.OUTPUTSELECT
+clr => current_state.OUTPUTSELECT
+clr => current_state.OUTPUTSELECT
+state[0] <= state.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HienThiDemLui41|GiaiMaLED7Doan:use2
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+led[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

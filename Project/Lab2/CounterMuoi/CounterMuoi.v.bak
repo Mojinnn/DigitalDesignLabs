@@ -1,0 +1,43 @@
+module Counter_muoi( input clk, input reset, output reg [3:0]cnt, output reg [3:0]led );
+
+reg [3:0]next_cnt;
+
+always @(*) begin
+	if(reset) cnt = 4'b0000;
+	else begin
+		case(cnt)
+			4'h0: next_cnt = 4'h1;
+			4'h1: next_cnt = 4'h2;
+			4'h2: next_cnt = 4'h3;
+			4'h3: next_cnt = 4'h4;
+			4'h4: next_cnt = 4'h5;
+			4'h5: next_cnt = 4'h6;
+			4'h6: next_cnt = 4'h7;
+			4'h7: next_cnt = 4'h8;
+			4'h8: next_cnt = 4'h9;
+			4'h9: next_cnt = 4'h0;
+			default: next_cnt = 4'h0;
+		endcase
+	end
+	end
+always @(posedge clk or negedge reset) begin
+	if(reset) cnt <= 4'b0000;
+	else cnt <= next_cnt;
+end
+/*always @(*) begin
+	case(cnt)
+			4'h0: led = 4'b0000001;
+			4'h1: led = 4'b1001111;
+			4'h2: led = 4'b0010010;
+			4'h3: led = 4'b0000110;
+			4'h4: led = 4'b1001100;
+			4'h5: led = 4'b0100100;
+			4'h6: led = 4'b0100000;
+			4'h7: led = 4'b0001111;
+			4'h8: led = 4'b0000000;
+			4'h9: led = 4'b0000010;
+			default: led = 4'b1000000;
+		endcase
+end
+*/
+endmodule

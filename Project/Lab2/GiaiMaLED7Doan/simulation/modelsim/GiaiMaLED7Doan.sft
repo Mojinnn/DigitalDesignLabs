@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (Verilog)"
+set corner_file_list {
+	{{"Slow Model"} {GiaiMaLED7Doan.vo GiaiMaLED7Doan_v.sdo}}
+	{{"Fast Model"} {GiaiMaLED7Doan_fast.vo GiaiMaLED7Doan_v_fast.sdo}}
+}

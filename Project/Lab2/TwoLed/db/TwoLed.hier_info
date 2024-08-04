@@ -1,0 +1,53 @@
+|TwoLed
+data1[0] => data1[0].IN1
+data1[1] => data1[1].IN1
+data1[2] => data1[2].IN1
+data1[3] => data1[3].IN1
+data2[0] => data2[0].IN1
+data2[1] => data2[1].IN1
+data2[2] => data2[2].IN1
+data2[3] => data2[3].IN1
+led1[0] <= GiaiMaLED7Doan:comb_3.led
+led1[1] <= GiaiMaLED7Doan:comb_3.led
+led1[2] <= GiaiMaLED7Doan:comb_3.led
+led1[3] <= GiaiMaLED7Doan:comb_3.led
+led1[4] <= GiaiMaLED7Doan:comb_3.led
+led1[5] <= GiaiMaLED7Doan:comb_3.led
+led1[6] <= GiaiMaLED7Doan:comb_3.led
+led2[0] <= GiaiMaLED7Doan:comb_4.led
+led2[1] <= GiaiMaLED7Doan:comb_4.led
+led2[2] <= GiaiMaLED7Doan:comb_4.led
+led2[3] <= GiaiMaLED7Doan:comb_4.led
+led2[4] <= GiaiMaLED7Doan:comb_4.led
+led2[5] <= GiaiMaLED7Doan:comb_4.led
+led2[6] <= GiaiMaLED7Doan:comb_4.led
+
+
+|TwoLed|GiaiMaLED7Doan:comb_3
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+led[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TwoLed|GiaiMaLED7Doan:comb_4
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+led[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

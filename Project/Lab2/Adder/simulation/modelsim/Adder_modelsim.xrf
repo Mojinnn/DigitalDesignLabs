@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/Project/Lab2/Adder/Adder.v
+source_file = 1, C:/altera/Project/Lab2/Adder/Waveform.vwf
+source_file = 1, C:/altera/Project/Lab2/Adder/Waveform1.vwf
+source_file = 1, C:/altera/Project/Lab2/Adder/db/Adder.cbx.xml
+design_name = Adder
+instance = comp, \b~I , b, Adder, 1
+instance = comp, \ci~I , ci, Adder, 1
+instance = comp, \a~I , a, Adder, 1
+instance = comp, \s~0 , s~0, Adder, 1
+instance = comp, \co~0 , co~0, Adder, 1
+instance = comp, \s~I , s, Adder, 1
+instance = comp, \co~I , co, Adder, 1

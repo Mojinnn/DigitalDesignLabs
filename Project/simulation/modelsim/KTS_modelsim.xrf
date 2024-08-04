@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/Project/KTS.bdf
+source_file = 1, C:/altera/Project/Waveform.vwf
+source_file = 1, C:/altera/Project/db/KTS.cbx.xml
+design_name = KTS
+instance = comp, \A~I , A, KTS, 1
+instance = comp, \B~I , B, KTS, 1
+instance = comp, \O~I , O, KTS, 1
